@@ -8,8 +8,7 @@ for (var i = 0; i < len; i++) {
 console.log(array);
 const productArray = (arr, len) => {
   if (len == 1) {
-    process.stdout.write(`0`);
-    return;
+    return 0;
   }
   var product = [];
   var temp = 1;
