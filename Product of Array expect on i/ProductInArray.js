@@ -13,7 +13,6 @@ const productArray = (arr, len) => {
   }
   var product = [];
   var temp = 1;
-  for (var j = 0; j < len; j++) product[j] = 1;
   for (i = 0; i < len; i++) {
     product[i] = temp;
     temp *= arr[i];
