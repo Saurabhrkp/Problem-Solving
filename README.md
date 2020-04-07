@@ -29,12 +29,12 @@ node program.js
 ## Folder Structure
 
 - ≡ __[\\Problem\-Solving](https://github.com/Saurabhrkp/Problem-Solving)__
-   - ≡ __Add Value to Find K in Array__
+   - ≡ __[Add Value to Find K in Array](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Add%20Value%20to%20Find%20K%20in%20Array)__
      -  [AddUptoK.js](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Add%20Value%20to%20Find%20K%20in%20Array/AddUptoK.js)
      -  [Problem Statement.png](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Add%20Value%20to%20Find%20K%20in%20Array/Problem%20Statement.png)
      -  [README.md](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Add%20Value%20to%20Find%20K%20in%20Array/README.md)
      -  [Solution.jpeg](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Add%20Value%20to%20Find%20K%20in%20Array/Solution.jpeg)
-   - ≡ __Char in end of Words__
+   - ≡ __[Char in end of Words](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Char%20in%20end%20of%20Words)__
      -  [EndOfWords.js](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Char%20in%20end%20of%20Words/EndOfWords.js)
      -  [Problem Statement.png](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Char%20in%20end%20of%20Words/Problem%20Statement.png)
      -  [README.md](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Char%20in%20end%20of%20Words/README.md)
