@@ -21,7 +21,6 @@ const productArray = (arr, len) => {
     product[i] *= temp;
     temp *= arr[i];
   }
-  for (i = 0; i < len; i++);
   return product;
 };
 process.stdout.write(`The product array is : `);
