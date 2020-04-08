@@ -50,6 +50,11 @@ node program.js
      - ⚡ [RunLengthEncoded.js](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Length%20Encoding/RunLengthEncoded.js)
      -  [Solution.jpeg](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Length%20Encoding/Solution.jpeg)
    - ⚡ [MatrixWithPrompt.js](MatrixWithPrompt.js)
+   - 📂 __[Longest Subsequence](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Longest%20Subsequence)__
+     - ⚡ [LongestSubsequence.js](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Longest%20Subsequence/LongestSubsequence.js)
+     -  [Problem Statement.png](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Longest%20Subsequence/Problem%20Statement.png)
+     -  [README.md](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Longest%20Subsequence/README.md)
+     -  [Solution.png](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Longest%20Subsequence/Solution.png)
    - 📂 __[Maximum Possible Value](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Maximum%20Possible%20Value)__
      - ⚡ [MaximumPossibleValue.js](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Maximum%20Possible%20Value/MaximumPossibleValue.js)
      -  [Problem Question.jpeg](https://github.com/Saurabhrkp/Problem-Solving/tree/master/Maximum%20Possible%20Value/Problem%20Question.jpeg)
