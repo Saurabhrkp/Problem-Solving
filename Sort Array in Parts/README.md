@@ -15,9 +15,9 @@ In this repository I have saved all my solution with their problem statement.
 Navigate to folder of program which you want to run as
 
 ```
-cd Shift\ Char\ by\ N/
+cd '.\Sort Array in Parts\'
 
-node ShiftLetterByN.js
+node .\SortPartsOfArray.js
 ```
 
 ## Versioning
