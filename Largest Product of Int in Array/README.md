@@ -15,9 +15,9 @@ In this repository I have saved all my solution with their problem statement.
 Navigate to folder of program which you want to run as
 
 ```
-cd Length\ Encoding/
+cd '.\Largest Product of Int in Array\'
 
-node RunLengthEncoded.js
+node .\LargestProductOfInt.js
 ```
 
 ## Versioning
