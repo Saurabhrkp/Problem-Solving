@@ -3,16 +3,16 @@ const prompt = require('prompt-sync')({ sigint: true });
 const input = [];
 
 const len = prompt('Enter length for pattern: ');
+let temp = 1;
 
-input[0] = 1;
-input[len * 2 - 2] = 1;
-
-for (let index = 1; index < len * 2 - 2; index++) {
-  if (index % 2 !== 0) {
-    input[index] = '@';
-  } else {
-    input[index] = '3';
-  }
+for (let i = 0; i < len; i++) {
+  temp % 2 !== 0 ? (input[i] = temp) : (input[i] = '@');
+  temp++;
 }
 
-console.log(`The pattern for ${len} is ${input.join('')}`);
+var pattern =
+  len % 2 !== 0
+    ? input.join('') + '@' + input.reverse().join('')
+    : input.join('') + input.reverse().splice(1).join('');
+
+console.log(`The pattern for ${len} is ${pattern}`);
