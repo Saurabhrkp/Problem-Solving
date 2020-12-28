@@ -1,12 +1,12 @@
 const prompt = require('prompt-sync')({ sigint: true });
 
 const number = prompt('Enter constraint: ');
-const isPrime = num => {
+const isPrime = (num) => {
   for (let i = 2; i < num; i++) if (num % i === 0) return false;
   return num > 1;
 };
-var array = [];
-var result = [];
+let array = [];
+let result = [];
 const primeTill = (arr, number) => {
   for (let i = 1; i < number; i++) {
     if (isPrime(i)) arr.push(i);
@@ -15,9 +15,9 @@ const primeTill = (arr, number) => {
 
 primeTill(array, number);
 
-const calculate = num => {
-  var temp = [];
-  var sum = 0;
+const calculate = (num) => {
+  let temp = [];
+  let sum = 0;
   primeTill(temp, num);
   for (let j = 0; j < temp.length; j++) {
     sum = sum + temp[j];
@@ -25,5 +25,5 @@ const calculate = num => {
   }
 };
 
-array.forEach(num => calculate(num));
+array.forEach((num) => calculate(num));
 console.log(`The prime number till ${number} are ${result}`);

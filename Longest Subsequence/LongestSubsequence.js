@@ -1,15 +1,15 @@
 const prompt = require('prompt-sync')({ sigint: true });
-var array = [];
+let array = [];
 const len = prompt('Enter length of array: ');
-for (var i = 0; i < len; i++) {
+for (let i = 0; i < len; i++) {
   value = prompt(`Enter value for ${i + 1}: `);
   array[i] = Number(value);
 }
 console.log(`Given array is ${array}`);
 
 const subsequence = (arr, n) => {
-  var lis = [];
-  var i,
+  let lis = [];
+  let i,
     j,
     max = 0;
 
@@ -23,6 +23,6 @@ const subsequence = (arr, n) => {
 
   return max;
 };
-var result = subsequence(array, array.length);
+let result = subsequence(array, array.length);
 
 console.log(`Longest increasing subsequence has length: ${result}`);

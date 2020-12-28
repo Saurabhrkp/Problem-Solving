@@ -7,6 +7,6 @@ const isValidIP = (str) => {
   const regex = new RegExp(`^${octet}\\.${octet}\\.${octet}\\.${octet}$`);
   return regex.test(str);
 };
-var result = isValidIP(address);
+let result = isValidIP(address);
 
 console.log(`The IP address ${address} is IPv4: ${result}`);

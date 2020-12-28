@@ -7,7 +7,7 @@ const input = [],
 const len = prompt('Enter length of input: ');
 
 // iterating for len of input provided by user
-for (var i = 0; i < len; i++) {
+for (let i = 0; i < len; i++) {
   value = prompt(`Enter value for ${i + 1}: `);
   input[i] = Number(value);
 }

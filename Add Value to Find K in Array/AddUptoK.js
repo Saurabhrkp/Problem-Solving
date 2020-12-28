@@ -1,10 +1,10 @@
 const prompt = require('prompt-sync')({ sigint: true });
 
-var array = [];
-var count = 0;
+let array = [];
+let count = 0;
 
 const len = prompt('Enter length of array: ');
-for (var i = 0; i < len; i++) {
+for (let i = 0; i < len; i++) {
   value = prompt(`Enter value for ${i + 1}: `);
   array[i] = Number(value);
 }

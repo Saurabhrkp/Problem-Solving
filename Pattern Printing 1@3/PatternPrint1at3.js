@@ -10,7 +10,7 @@ for (let i = 0; i < len; i++) {
   temp++;
 }
 
-var pattern =
+let pattern =
   len % 2 !== 0
     ? input.join('') + '@' + input.reverse().join('')
     : input.join('') + input.reverse().splice(1).join('');

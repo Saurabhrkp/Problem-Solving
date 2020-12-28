@@ -1,13 +1,13 @@
 const prompt = require('prompt-sync')({ sigint: true });
 
 const stringOne = prompt('Enter first string: ');
-var tempOne = stringOne.toLowerCase().split(' ');
+let tempOne = stringOne.toLowerCase().split(' ');
 
 const stringTwo = prompt('Enter second string: ');
-var tempTwo = stringTwo.toLowerCase().split(' ');
+let tempTwo = stringTwo.toLowerCase().split(' ');
 
-var count = 0;
-var words = [];
+let count = 0;
+let words = [];
 
 for (let i = 0; i < tempOne.length; i++) {
   const element = tempOne[i];

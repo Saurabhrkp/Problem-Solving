@@ -2,18 +2,18 @@ const prompt = require('prompt-sync')({ sigint: true });
 
 const string = prompt('Enter string: ');
 
-var result = '';
-var x = 1;
-var substr = '';
+let result = '';
+let x = 1;
+let substr = '';
 
-for (var i = 0; i < string.length; i++) {
-  var c = string.charAt(i);
-  if (c.charCodeAt(0) >= 48 && c.charCodeAt(0) < 58) {
+for (let i = 0; i < string.length; i++) {
+  let char = string.charAt(i);
+  if (char.charCodeAt(0) >= 48 && char.charCodeAt(0) < 58) {
     result += substr.repeat(x);
-    x = c;
+    x = char;
     substr = '';
   } else {
-    substr += c;
+    substr += char;
   }
 }
 result += substr.repeat(x);

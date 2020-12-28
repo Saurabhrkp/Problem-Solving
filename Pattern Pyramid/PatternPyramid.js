@@ -2,13 +2,13 @@ const prompt = require('prompt-sync')({ sigint: true });
 
 const len = prompt('Enter length for pattern: ');
 
-var i,
+let i,
   j,
   count = 1,
   num = 1;
 
 for (i = 1; i <= len; i++) {
-  for (var s = 0; s <= len - i; s++) {
+  for (let s = 0; s <= len - i; s++) {
     process.stdout.write(' ');
   }
   for (j = 1; j <= i; j++) {

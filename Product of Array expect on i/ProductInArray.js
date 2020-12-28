@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')({ sigint: true });
-var array = [];
+let array = [];
 const len = prompt('Enter length of array: ');
-for (var i = 0; i < len; i++) {
+for (let i = 0; i < len; i++) {
   value = prompt(`Enter value for ${i + 1}: `);
   array[i] = Number(value);
 }
@@ -10,8 +10,8 @@ const productArray = (arr, len) => {
   if (len == 1) {
     return 0;
   }
-  var product = [];
-  var temp = 1;
+  let product = [];
+  let temp = 1;
   for (i = 0; i < len; i++) {
     product[i] = temp;
     temp *= arr[i];

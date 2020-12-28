@@ -3,12 +3,12 @@ const prompt = require('prompt-sync')({ sigint: true });
 const row = prompt('Enter no. of rows: ');
 const column = prompt('Enter no. of column: ');
 
-var matrix = [];
+let matrix = [];
 
-for (var i = 0; i < row; i++) {
+for (let i = 0; i < row; i++) {
   matrix[i] = [];
   console.log(`For array: ${i + 1}`);
-  for (var j = 0; j < column; j++) {
+  for (let j = 0; j < column; j++) {
     value = prompt(`Enter value in ${i + 1}: `);
     matrix[i][j] = Number(value);
   }
@@ -16,12 +16,12 @@ for (var i = 0; i < row; i++) {
 
 console.log('The 2D Array: ', matrix);
 
-var result = [];
+let result = [];
 
 matrix.forEach((element) => {
   result.push(...element);
 });
 
-console.log(`Flat 2D array in asending order: 
+console.log(`Flat 2D array in asending order:
 ${result.sort((a, b) => a - b)}
 `);
